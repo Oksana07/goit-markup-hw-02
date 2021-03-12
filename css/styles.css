@@ -1,2 +1,6 @@
-{
+.web-studio {
+color: black;
 } 
+.web-studio:hover {
+color: rgb(100, 237, 100);
+}
