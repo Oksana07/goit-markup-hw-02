@@ -1,6 +1,25 @@
-.web-studio {
-color: black;
-} 
-.web-studio:hover {
-color: rgb(100, 237, 100);
+:root {
+  --main-text-color: #212121;
+  --accent-color: #2196F3;
+  --dark-bg-text-color:#2F303A;
+  --title-color: #212121;
+  --dark-bg-color: #FFFFFF;
+
+}
+
+body {
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+
+}
+
+.link {
+text-decoration: none;
+color-inherit;
+}
+
+.list {
+  list-style: none;
 }
