@@ -1,9 +1,9 @@
 :root {
   --main-text-color: #212121;
-  --accent-color: #2196F3;
-  --dark-bg-text-color:#2F303A;
+  --accent-color: #2196f3;
+  --dark-bg-text-color:#2f303a;
   --title-color: #212121;
-  --dark-bg-color: #FFFFFF;
+  --dark-bg-color: #ffffff;
 
 }
 
@@ -25,7 +25,7 @@ font-family: Raleway;
 font-weight: bold;
 font-size: 26px;
 line-height: 1.2;
-color: #2196F3;
+color: #2196f3;
 }
 
 .logo-studio {
