@@ -8,28 +8,68 @@
 }
 
 body {
-font-family: "Roboto", sans-serif;
-font-size: 16px;
-line-height: 1.62;
+font-family: Roboto, sans-serif;
+font-size: 14px;
+line-height: 1.14;
 letter-spacing: 0.03em;
+font-style: normal;
 
+}
+
+.logo {
+  text-decoration: none;
+}
+
+.logo-web {
+font-family: Raleway;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.2;
+color: #2196F3;
+}
+
+.logo-studio {
+font-family: Raleway;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.2;
+color: #000000;
 }
 
 .link {
 text-decoration: none;
-color-inherit;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+color: #212121;
 }
+
 
 .list {
   list-style: none;
 }
 
-.button {
+.link:hover,
+.link:focus  {
+color: #2196f3;
+}
+
+.link.current {
+ color: #2196f3;
+}
+
+.button { 
+font-family: Roboto, sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--title-color);
+}
 
+.button:hover,
+.button:focus {
+ background-color: #2196f3;
+ color: #ffffff;
 }

@@ -2,26 +2,27 @@
 <html lang="en-ru">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title class="">Web Studio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="">WebStudio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.2.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <header class="header" id="header">
+    <header class="header">
         <nav class="navivation">
-            <a class="link" href="" class="logo"><span class="logo-web">Web Studio</span></a>
+            <a href="" class="logo"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
             <ul class="list">
-                <li class="link"><a href="Studio">Студия</a></li>
-                <li class="link"><a href="Portfolio">Портфолио</a></li>
-                <li class="link"><a href="Contacts">Контакты</a></li>
+                <li><a href="Studio" class="link">Студия</a></li>
+                <li><a href="Portfolio" class="link current">Портфолио</a></li>
+                <li><a href="Contacts" class="link">Контакты</a></li>
             </ul>
         </nav>
         <ul class="list">
@@ -31,10 +32,12 @@
     </header>
 
     <section>
-        <button type="button" class="button">
-            Все
-        </button>
         <ul class="list">
+            <li>
+               <button type="button" class="button">
+            Все
+        </button> 
+            </li>
             <li>
                 <button type="button" class="button">
                     Веб-сайты
@@ -58,7 +61,7 @@
         </ul>
 
         <ul class="list">
-            <li><img src="./images/img_nout.jpg" alt="img_nout" width="370">
+            <li><a href=""><img src="./images/img_nout.jpg" alt="img_nout" width="370"></a>
                 <h1 class="title">Технокряк</h1>
                 <p class="text">Веб-сайт</p>
             </li>
@@ -99,7 +102,7 @@
 
 
     <footer>
-        <a class="link" href="WebStudio">WebStudio</a>
+    <a href="./index.html" class="logo"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
         <address>
             <p>г. Киев, пр-т Леси Украинки, 26</p>
 
