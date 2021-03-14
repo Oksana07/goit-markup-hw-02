@@ -100,6 +100,14 @@ color: #212121;
 background-color: #2f303a;
 }
 
+.portfolio-title {
+font-weight: bold;
+font-size: 18px;
+line-height: 2.00;
+letter-spacing: 0.06em;
+color: #212121;
+}
+
 .main-title {
 font-weight: 900;
 font-size: 44px;
@@ -167,6 +175,13 @@ text-align: center;
 letter-spacing: 0.03em;
 color: var(--info-color);
 }
+
+.services {
+font-size: 16px;
+line-height: 1.87;
+color:var(--info-color);
+}
+
 .footer {
 background-color: #2f303a;
 }
