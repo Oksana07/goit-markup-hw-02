@@ -3,7 +3,7 @@
   --accent-color: #2196f3;
   --dark-bg-text-color: #2f303a;
   --title-color: #212121;
-  --dark-bg-color: #ffffff;
+  --waite-bg-color: #ffffff;
   --info-color: #757575;
 }
 
@@ -13,6 +13,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   font-style: normal;
+  color: var(--waite-bg-color);
 }
 
 address {
@@ -57,7 +58,7 @@ address {
 }
 
 .link.current {
-  color: #2196f3;
+color: #2196f3;
 }
 
 
@@ -70,13 +71,6 @@ address {
   overflow: hidden;
   border: 0;
   clip: rect(0 0 0 0)
-}
-
-
-.taitle {
- text-align: center;
- font-weight: bold;
- text-transform: uppercase;
 }
 
 
@@ -145,5 +139,52 @@ letter-spacing: 0.03em;
 color: var(--info-color);
 }
 
+.business-title {
+font-weight: bold;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+color: var(--title-color);
+}
+.team-title {
+font-weight: bold;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+color: var(--title-color);
+}
+.team-collaborator {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+color: var(--title-color);
+}
+.team-profession {
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--info-color);
+}
+.footer {
+background-color: #2f303a;
+}
+.footer .logo-studio {
+font-family: Raleway;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+color: #ffffff;
+}
+.footer .map {
+font-size: 14px;
+line-height: 1.71;
+color: #ffffff;
+}
 
-
+.footer .contakt {
+font-size: 14px;
+line-height: 1.71;
+color: rgba(255, 255, 255, 0.6);
+}
