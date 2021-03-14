@@ -1,19 +1,17 @@
 :root {
   --main-text-color: #212121;
   --accent-color: #2196f3;
-  --dark-bg-text-color:#2f303a;
+  --dark-bg-text-color: #2f303a;
   --title-color: #212121;
   --dark-bg-color: #ffffff;
-
 }
 
 body {
-font-family: Roboto, sans-serif;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-font-style: normal;
-
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  font-style: normal;
 }
 
 .logo {
@@ -21,55 +19,72 @@ font-style: normal;
 }
 
 .logo-web {
-font-family: Raleway;
-font-weight: bold;
-font-size: 26px;
-line-height: 1.2;
-color: #2196f3;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #2196f3;
 }
 
 .logo-studio {
-font-family: Raleway;
-font-weight: bold;
-font-size: 26px;
-line-height: 1.2;
-color: #000000;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #000000;
 }
 
 .link {
-text-decoration: none;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-color: #212121;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #212121;
 }
-
 
 .list {
   list-style: none;
 }
 
 .link:hover,
-.link:focus  {
-color: #2196f3;
+.link:focus {
+  color: #2196f3;
 }
 
 .link.current {
- color: #2196f3;
+  color: #2196f3;
 }
 
-.button { 
-font-family: Roboto, sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--title-color);
+.button {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
 }
 
 .button:hover,
 .button:focus {
- background-color: #2196f3;
- color: #ffffff;
+  background-color: #2196f3;
+  color: #ffffff;
 }
+
+.page-taitle {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
