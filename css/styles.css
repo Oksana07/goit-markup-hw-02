@@ -48,10 +48,6 @@ address {
   color: #212121;
 }
 
-.list {
-  list-style: none;
-}
-
 .link:hover,
 .link:focus {
   color: #2196f3;
@@ -61,8 +57,11 @@ address {
 color: #2196f3;
 }
 
+.list {
+  list-style: none;
+}
 
-  .visually-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -73,38 +72,11 @@ color: #2196f3;
   clip: rect(0 0 0 0)
 }
 
-
-.page-taitle {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-}
-
-.section-title {
-  font-size: 36px;
-  line-height: 1.16;
-}
-
-
 .header {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #212121;
-}
-
-.main {
-background-color: #2f303a;
-}
-
-.portfolio-title {
-font-weight: bold;
-font-size: 18px;
-line-height: 2.00;
-letter-spacing: 0.06em;
 color: #212121;
 }
 
@@ -118,15 +90,12 @@ text-transform: uppercase;
 color: #ffffff;
 }
 
-.main .button {
-font-family: Roboto;
-font-weight: bold;
-font-size: 16px;
-line-height: 1.87;
-text-align: center;
-letter-spacing: 0.06em;
-color: #ffffff;
-background-color: #2196f3;
+.page-taitle {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: #ffffff;
 }
 
 .button:hover,
@@ -135,12 +104,17 @@ background-color: #2196f3;
   color: #ffffff;
 }
 
+.main {
+background-color: #2f303a;
+}
+
 .about-title {
 font-weight: bold;
 line-height: 1.14;
 text-transform: uppercase;
 color: var(--title-color);
 }
+
 .about-info {
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -154,6 +128,7 @@ line-height: 1.16;
 text-align: center;
 color: var(--title-color);
 }
+
 .team-title {
 font-weight: bold;
 font-size: 36px;
@@ -161,6 +136,7 @@ line-height: 1.16;
 text-align: center;
 color: var(--title-color);
 }
+
 .team-collaborator {
 font-weight: 500;
 font-size: 16px;
@@ -168,18 +144,13 @@ line-height: 1.18;
 text-align: center;
 color: var(--title-color);
 }
+
 .team-profession {
 font-size: 16px;
 line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--info-color);
-}
-
-.services {
-font-size: 16px;
-line-height: 1.87;
-color:var(--info-color);
 }
 
 .footer {
@@ -203,3 +174,29 @@ font-size: 14px;
 line-height: 1.71;
 color: rgba(255, 255, 255, 0.6);
 }
+
+.main .button {
+font-family: Roboto;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.87;
+text-align: center;
+letter-spacing: 0.06em;
+color: #ffffff;
+background-color: #2196f3;
+}
+
+.portfolio-title {
+font-weight: bold;
+font-size: 18px;
+line-height: 2.00;
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+.services {
+font-size: 16px;
+line-height: 1.87;
+color:var(--info-color);
+}
+
