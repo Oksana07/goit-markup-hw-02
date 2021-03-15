@@ -100,7 +100,7 @@ color: #ffffff;
 
 .button:hover,
 .button:focus {
-  background-color:#188CE8;
+  background-color:#188ce8;
   color: #ffffff;
 }
 
@@ -194,7 +194,7 @@ letter-spacing: 0.06em;
 color: #212121;
 }
 
-.services {
+.our-services {
 font-size: 16px;
 line-height: 1.87;
 color:var(--info-color);
