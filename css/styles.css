@@ -50,11 +50,11 @@ address {
 
 .link:hover,
 .link:focus {
-  color: var(--accent-color);
+color: #2196f3;
 }
 
 .link.current {
-color: #2196f3;
+color: var (--accent-color);
 }
 
 .list {
