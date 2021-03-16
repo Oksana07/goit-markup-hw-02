@@ -200,3 +200,8 @@ font-size: 16px;
 line-height: 1.87;
 color:var(--info-color);
 }
+
+ a {
+   text-decoration: none;
+ }
+ 
