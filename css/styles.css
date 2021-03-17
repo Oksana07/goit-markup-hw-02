@@ -48,6 +48,22 @@ address {
   color: #757575;
 }
 
+.header-contakts {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var (--info-color);
+}
+
+.header-menu {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+}
+
 .link:hover,
 .link:focus {
 color: #2196f3;
@@ -106,8 +122,8 @@ color: #ffffff;
 
 .button-style {
 font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
+font-size: 16;
+line-height: 1.62px;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
