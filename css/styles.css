@@ -48,7 +48,7 @@ address {
   color: #757575;
 }
 
-.header-contakts {
+.contakts {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -56,7 +56,7 @@ letter-spacing: 0.02em;
 color: var (--info-color);
 }
 
-.header-menu {
+.menu {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -70,7 +70,7 @@ color: #2196f3;
 }
 
 .link.current {
-color: var (--accent-color);
+color: var(--accent-color);
 }
 
 .list {
